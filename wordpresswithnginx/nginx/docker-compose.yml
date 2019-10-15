@@ -5,8 +5,8 @@ services:
   web:
     image: nginx
     volumes:
-     - ./wordpress1.conf:/etc/nginx/conf.d/wordpress1.conf
-     - ./ssl/:/etc/nginx/ssl/
+     - ./wordpress1.conf:/etc/nginx/conf.d/wordpress1.conf      #将本地wordpress1.conf文件挂载到容器中的/etc/nginx/conf.d/位置
+     - ./ssl/:/etc/nginx/ssl/           #将本地ssl目录挂载到容器中的/etc/nginx/位置
     ports:
      - "80:80"
      - "443:443"
