@@ -17,4 +17,4 @@ docker-compose up -d
 docker-compose up -d
 
 ## 查看成果
-打开http://blog.limanman.cc自动转到https://blog.limanman.cc
+打开http://blog.limanman.cc 自动转到 https://blog.limanman.cc
